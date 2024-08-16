@@ -29,7 +29,7 @@ def main():
     mes = int(input("Ingresa el mes: "))
     anio = int(input("Ingresa el año: "))
 
-    if verificar(dia, mes , anio) == True:
+    if verificar (dia, mes , anio) == True:
         print("fecha valida")
 
     else:
